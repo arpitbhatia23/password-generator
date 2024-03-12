@@ -33,7 +33,7 @@ passwordgenerator();},[length,charallowed,numberallowed,passwordgenerator])
 
   return (
     <>
-<div className=' mx-40 text-center rounded-lg  text-orange-500 bg-gray-700'>
+<div className='w-full mx-auto max-w-md text-center rounded-lg px-4 py-3 my-8 text-orange-500 bg-gray-700'>
   <h1 className='text-white text-center my-2 '>password genterator</h1>
   <div className='flex shadow rounded-lg overflow-hidden mb-4'>
   <input type='text' value={password} className='outline-none w-full py-1 px-3 ' placeholder='password' readOnly ref={passwordRef}/>
